@@ -1,5 +1,5 @@
 // Day 12 Challenge Question  36
-// Create a function for customized T-Shirt
+// Create a function for customized T-Shirt with message.
 function design_shirt(size, message) {
     console.log(size, message);
 }
