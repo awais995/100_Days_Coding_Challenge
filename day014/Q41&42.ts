@@ -2,9 +2,9 @@
 
 // Display magician names from an array
 
-let magicians:string [] = ["Harry", "Ricky", "David"];
+export let magicians:string [] = ["Harry", "Ricky", "David"];
 
-function show_magicians(magicians:string[]){
+export function show_magicians(magicians:string[]){
     for (let magician of magicians){
         console.log(magician); // Print the simple magician names
     }
@@ -22,6 +22,6 @@ function the_Great(magicians:string[]){
     };
 }
     
-show_magicians(magicians);  // Original Array 
-the_Great(magicians);       // Modified Arrya
-show_magicians(magicians);  // show modified array names
+// show_magicians(magicians);  // Original Array 
+// the_Great(magicians);       // Modified Arrya
+// show_magicians(magicians);  // show modified array names
