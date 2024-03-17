@@ -1,7 +1,7 @@
 // Day 14 Challenge Question 41
 // Display magician names from an array
-let magicians = ["Harry", "Ricky", "David"];
-function show_magicians(magicians) {
+export let magicians = ["Harry", "Ricky", "David"];
+export function show_magicians(magicians) {
     for (let magician of magicians) {
         console.log(magician); // Print the simple magician names
     }
@@ -17,7 +17,6 @@ function the_Great(magicians) {
     }
     ;
 }
-show_magicians(magicians); // Original Array 
-the_Great(magicians); // Modified Arrya
-show_magicians(magicians); // show modified array names
-export {};
+// show_magicians(magicians);  // Original Array 
+// the_Great(magicians);       // Modified Arrya
+// show_magicians(magicians);  // show modified array names
