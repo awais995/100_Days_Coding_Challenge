@@ -1,12 +1,13 @@
 // Day 16 Challenge Question 48
-// Combining arrays with spread operators
+/* Create a 2 set of prices and Combining both sets into one...
+ with spread operators and sort in Ascending and Descending order*/
 let laptop_Set1_Price = [50000, 70000, 60000];
 let laptop2_Set_Price = [150000, 200000, 250000];
-let merge = [...laptop_Set1_Price, ...laptop2_Set_Price];
-// used a sort method with call back function for print the values in ascending order
+let merge = [...laptop_Set1_Price, ...laptop2_Set_Price]; // Combined array with spread operator.
+// used a sort method with call back function for print the values in ascending order.
 merge.sort((a, b) => a - b);
 console.log(merge);
-// used a sort method with call back function for print the values in descending order
+// used a sort method with call back function for print the values in descending order.
 merge.sort((a, b) => b - a);
 console.log(merge);
 export {};
