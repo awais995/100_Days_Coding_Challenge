@@ -2,7 +2,7 @@
 
 // Explain the error that occurs when tryping to use a reserved word as a variable name.
 
-let function = 5; // function is reserved keyword
+// let function = 5; // function is reserved keyword
 
 console.log(
     "Using a reserved word in a variable name cause a syntax errror in JavaScript"
